@@ -47,7 +47,11 @@ Caso a API do IMDb esteja instável ou fora do ar, você pode utilizar os seguin
 <https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json>
 <https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopTVs.json>
 <https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json>
-<https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json>
+<https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json>  
+
+**Resultado do Desafio**
+
+![Resultado Aula 1](res/resultado_1.png)
 
 ***
 
