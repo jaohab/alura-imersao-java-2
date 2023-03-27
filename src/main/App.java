@@ -1,3 +1,10 @@
+package main;
+
+import main.movies.PopularMovies;
+import main.movies.TopMovies;
+import main.shows.PopularTvShows;
+import main.shows.TopTvShows;
+
 public class App {
 
     public static void main(String[] args) throws Exception {

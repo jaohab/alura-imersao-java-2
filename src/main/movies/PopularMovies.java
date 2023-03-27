@@ -1,3 +1,5 @@
+package main.movies;
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -5,6 +7,9 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
 import java.util.Map;
+
+import main.JsonParser;
+import main.Style;
 
 /*
  * Desafios da aula 1
@@ -18,16 +23,16 @@ import java.util.Map;
  * Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.
  */
 
-public class PopularTvShows {
+public class PopularMovies {
 
-    public void showPopularTvShows() throws Exception {
+    public void showPopularMovies() throws Exception {
 
         // Estabelecer uma conexão HTTP e com a API
         // String key = System.getenv("IMDB_API_KEY");
-        // final String URL = "https://imdb-api.com/en/API/MostPopularTVs/".concat(key);
+        // final String URL ="https://imdb-api.com/en/API/MostPopularMovies/".concat(key);
 
         // URL ALternativa
-        String URL = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
+        String URL = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
 
         URI address = URI.create(URL);
         HttpClient client = HttpClient.newHttpClient();
@@ -42,15 +47,15 @@ public class PopularTvShows {
         //System.out.println(listaDeFilmes.size());
 
         // Exibir e manipular os dados
-        System.out.println(Style.T_VERDE + Style.NEGRITO + "SÉRIES MAIS POPULARES\n" + Style.RESETAR);
+        System.out.println(Style.T_VERDE + Style.NEGRITO + "FILMES MAIS POPULARES\n" + Style.RESETAR);
 
-        for (Map<String, String> show : listaDeFilmes) {
-            System.out.println("Título: " + Style.NEGRITO + show.get("title") + Style.RESETAR);
-            System.out.println(Style.T_AZUL + Style.ITALICO + show.get("image") + Style.RESETAR);
-            System.out.print(show.get("imDbRating"));
+        for (Map<String, String> filme : listaDeFilmes) {
+            System.out.println("Título: " + Style.NEGRITO + filme.get("title") + Style.RESETAR);
+            System.out.println(Style.T_AZUL + Style.ITALICO + filme.get("image") + Style.RESETAR);
+            System.out.print(filme.get("imDbRating"));
             System.out.print(" - ");
 
-            double temp = Double.parseDouble(show.get("imDbRating"));
+            double temp = Double.parseDouble(filme.get("imDbRating"));
             int rating = (int) temp;
 
             for (int i = 0; i < rating; i++) {
