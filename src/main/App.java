@@ -1,14 +1,17 @@
 package main;
 
-import main.movies.PopularMovies;
-import main.movies.TopMovies;
-import main.shows.PopularTvShows;
-import main.shows.TopTvShows;
+import main.filmes.PopularMovies;
+import main.filmes.TopMovies;
+import main.gerador.GeradorDeStickers;
+import main.series.PopularTvShows;
+import main.series.TopTvShows;
 
 public class App {
 
     public static void main(String[] args) throws Exception {
 
+        // =========== Dados da API ===========
+        
         TopMovies top = new TopMovies();
         top.showTopMovies();
 
@@ -34,7 +37,14 @@ public class App {
                 Style.RESETAR);
 
         PopularTvShows popularShows = new PopularTvShows();
-        popularShows.showPopularTvShows();
+        popularShows.showPopularTvShows(); 
 
+        // =========== Gerador de Stickers ===========        
+
+        String linkAPI = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
+
+        var sticker = new GeradorDeStickers();
+        sticker.gerarStickers(linkAPI);
     }
+    
 }

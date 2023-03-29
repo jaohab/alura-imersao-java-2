@@ -7,7 +7,10 @@ public class Style {
      */
 
     // Emoji
+    public static final String ESTRELA_BRILHANTE = "\u1F31F";
     public static final String ESTRELA = "\u2B50";
+    public static final String FOGO = "\u1F525";
+    public static final String COMETA = "\u2604";
 
     // Estilo do texto
     public static final String NEGRITO = "\u001B[1m";
