@@ -89,9 +89,9 @@ Nesta segunda aula vamos criar um gerador de figurinhas explorando outras biblio
 #### **Resultado do Desafio - 02**
 
 ![Resultado Aula 2](resultado/resultado_2.png)
-**Observação:** Como não existe um padrão de tamanho das imagens dos posters do filmes, da esse efeito de que as iamgens dos emojis e do texto estão mudando para cada imagem, mas estes estão padronizados.
+**Observação:** Como não existe um padrão de tamanho das imagens dos posters do filmes, da esse efeito de que as imagens dos emojis e dos textos estão mudando para cada imagem, mas estes estão padronizados.
 
-Eu comecei a fazer uma função de redimensionar as imagens pegas na API antes de adicionar o texto e os emojis, mas não tive tempo de concluir.
+Eu comecei a fazer uma função de redimensionar as imagens pegas na API antes de adicionar o texto e os emojis, mas não tive tempo de concluir. 😅
 
 ***
 &nbsp;
