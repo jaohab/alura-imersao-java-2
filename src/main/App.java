@@ -1,50 +1,22 @@
 package main;
 
-import main.filmes.PopularMovies;
-import main.filmes.TopMovies;
-import main.gerador.GeradorDeStickers;
-import main.series.PopularTvShows;
-import main.series.TopTvShows;
+import main.features.ImdbExtractor;
+import main.functions.ClientHTTP;
 
 public class App {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
-        // =========== Dados da API ===========
-        
-        TopMovies top = new TopMovies();
-        top.showTopMovies();
+        String apiUrl = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
 
-        System.out.println(
-                Style.NEGRITO + Style.T_VERMELHA
-                + "-------------------------------------------------------------\n" + 
-                Style.RESETAR);
+        var client = new ClientHTTP();
+        System.out.println(client.findData(apiUrl));
 
-        PopularMovies popular = new PopularMovies();
-        popular.showPopularMovies();
+        apiUrl = client.findData(apiUrl);
 
-        System.out.println(
-                Style.NEGRITO + Style.T_VERMELHA
-                + "-------------------------------------------------------------\n" + 
-                Style.RESETAR);
+        var imdb = new ImdbExtractor();
+        System.out.println(imdb.contents(apiUrl));
 
-        TopTvShows topShows = new TopTvShows();
-        topShows.showTopTvShows();
-
-        System.out.println(
-                Style.NEGRITO + Style.T_VERMELHA
-                + "-------------------------------------------------------------\n" + 
-                Style.RESETAR);
-
-        PopularTvShows popularShows = new PopularTvShows();
-        popularShows.showPopularTvShows(); 
-
-        // =========== Gerador de Stickers ===========        
-
-        String linkAPI = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
-
-        var sticker = new GeradorDeStickers();
-        sticker.gerarStickers(linkAPI);
     }
-    
+
 }
