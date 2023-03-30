@@ -158,13 +158,13 @@ Artigo: [Pack de stickers da Alura para Whatsapp e Telegram](https://www.alura.c
 
 #### **Material complementar - 04**
 
-Primeira aula do curso “Maven: gerenciamento de dependências e build de aplicações Java” da Alura.  
-Alura+ “O que é REST?”.  
-Artigo da Alura “Conceito e fundamentos sobre REST”.  
-Podcast Hipsters.Tech sobre MongoDB.  
-Hipters.Tube “O que é SQL e NoSQL?”.  
-Artigo da Alura “Spring: Conheça esse framework Java”.  
-Alura+ Introdução ao Postman”.  
+[Maven: gerenciamento de dependências e build de aplicações Java](https://www.alura.com.br/conteudo/maven-gerenciamento-dependencias-build-aplicacoes-java)  
+[O que é REST?](https://www.youtube.com/watch?v=weQ8ssA6iBU&ab_channel=AluraCursosOnline)  
+[Introdução ao Postman](https://www.youtube.com/watch?v=op81bMbgZXs&ab_channel=AluraCursosOnline)  
+Podcast Hipsters.Tech [MongoDB](https://www.hipsters.tech/mongodb-hipsters-ponto-tech-305/)  
+Hipters.Tube [O que é SQL e NoSQL?](https://www.youtube.com/watch?v=aure5d3B88g&ab_channel=AluraCursosOnline)  
+Artigo: [Conceito e fundamentos sobre REST](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos)  
+Artigo: [Spring: Conheça esse framework Java](https://www.alura.com.br/artigos/spring-conheca-esse-framework-java)  
 
 #### **Desafios desta aula - 04**
 
