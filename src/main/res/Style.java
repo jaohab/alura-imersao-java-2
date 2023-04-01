@@ -12,6 +12,9 @@ public class Style {
     public static final String FOGO = "\u1F525";
     public static final String COMETA = "\u2604";
 
+    // Separador
+    public static final String SEPARADOR = "––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––";
+
     // Estilo do texto
     public static final String NEGRITO = "\u001B[1m";
     public static final String ITALICO = "\u001B[3m";

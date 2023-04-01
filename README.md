@@ -1,6 +1,6 @@
 # IMERSÃO JAVA - Alura
 
-Repositorio dos conteúdos abordados durante o curso IMERSÃO JAVA da Alura entre os dias 27/03/23 à 31/03/23.
+Repositorio dos conteúdos abordados durante o curso IMERSÃO JAVA 2 da Alura entre os dias 27/03/23 à 31/03/23.
 
 ***
 
@@ -40,10 +40,10 @@ Artigo: [Decore o terminal com cores e emojis](https://www.alura.com.br/artigos/
 
 #### **Desafios desta aula - 01**
 
-1. Consumir o endpoint de filmes mais populares da API do IMDB.  
+1. ✅ **––** Consumir o endpoint de filmes mais populares da API do IMDB.  
 Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.  
-2. Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!  
-3. Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.  
+2. ✅ **––** Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!  
+3. ⛔ **––** Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.  
 
 #### **Instabilidade da API do IMDb**
 
@@ -80,11 +80,12 @@ Nesta segunda aula vamos criar um gerador de figurinhas explorando outras biblio
 
 #### **Desafios desta aula - 02**
 
-1. Criar diretório de saída das imagens, se ainda não existir.
-2. Centralizar o texto na figurinha.
-3. Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
-4. Colocar contorno (outline) no texto da imagem.
-5. Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
+1. ⛔ **––** Criar diretório de saída das imagens, se ainda não existir.
+2. ⛔ **––** Centralizar o texto na figurinha.
+3. ⛔ **––** Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
+4. ⛔ **––** Colocar contorno (outline) no texto da imagem.
+5. ⛔ **––** Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
+6. ✅ **–– DESAFIO PESSOAL ––** Adicionar função de redimencionar as imagens antes de gerar os stickers para padronizar o resultado.
 
 #### **Resultado do Desafio - 02**
 
@@ -121,10 +122,10 @@ Livro: [Desbravando SOLID](https://www.casadocodigo.com.br/products/livro-desbra
 
 #### **Desafios desta aula - 03**
 
-1. Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.  
-2. Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.  
-3. Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.  
-4. Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.  
+1. ⛔ **––** Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.  
+2. ⛔ **––** Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.  
+3. ⛔ **––** Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.  
+4. ⛔ **––** Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.  
 
 #### **Instabilidade da API da NASA**
 
@@ -142,7 +143,7 @@ Além disso, deixamos uma URLs com imagens fantásticas do James Webb Space Tele
 &nbsp;
 ***
 
-### ⛔ **Aula 04 - Criando nossa própria API com Spring**
+### ✅ **Aula 04 - Criando nossa própria API com Spring**
 
 Agora vamos construir uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
 
@@ -168,9 +169,9 @@ Artigo: [Spring: Conheça esse framework Java](https://www.alura.com.br/artigos/
 
 #### **Desafios desta aula - 04**
 
-1. Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.  
-2. Devolver a listagem ordenada pelo ranking.  
-3. Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.  
+1. ⛔ **––** Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.  
+2. ⛔ **––** Devolver a listagem ordenada pelo ranking.  
+3. ⛔ **––** Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.  
 
 #### **Resultado do Desafio - 04**
 
@@ -178,12 +179,35 @@ Artigo: [Spring: Conheça esse framework Java](https://www.alura.com.br/artigos/
 &nbsp;
 ***
 
-### ⛔ **Aula 05 - Publicando nossa API no Cloud**
+### ✅ **Aula 05 - Publicando nossa API no Cloud**
+
+Para fechar com chave de ouro, vamos tornar nossa aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem. Além disso, vamos gerar figurinhas a partir do conteúdo dessa nossa API.
 
 #### **Links - 05**
 
-#### **Desafios desta aula - 05**
+[Documentação Docker](https://docs.docker.com/get-started/overview/) - Plataforma de containers utilizada para construir a imagem cujo deploy foi feito no Fly.io.  
+[Docker Hub](https://hub.docker.com/) - Repositório central de imagens que podem ser usadas para executar containers de diferentes tecnologias e ferramentas.  
+[Fly.io](https://fly.io/) - PaaS (plataforma como serviço) utilizado nesta segunda edição da Imersão Java. Requer cartão de crédito. É fundamental entender a precificação e as [quotas gratuitas](https://fly.io/docs/about/pricing/#free-allowances).  
+[Heroku](https://www.heroku.com/) - PaaS utilizado na primeira edição da Imersão Java. É importante entender a [precificação do Heroku](https://www.heroku.com/pricing).  
+[Documentação Oracle Cloud](https://docs.oracle.com/pt-br/iaas/Content/home.htm)  
+Artigo: [Como elaborar um bom arquivo Readme para os seus projetos](https://www.alura.com.br/artigos/escrever-bom-readme)  
 
-#### **Resultado do Desafio - 05**
+#### **Material complementar - 05**
+
+[Dev em T: especialista x generalista](https://www.alura.com.br/dev-em-t)  
+Artigo: [Começando com Docker](https://www.alura.com.br/artigos/comecando-com-docker)  
+Artigo: [Heroku, Vercel e outras opções de Cloud como plataforma](https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma)  
+Podcast Hipters.Tech [Integração Contínua, Deploy Contínuo e Github Actions](https://www.alura.com.br/podcast/hipsterstech-integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335)  
+[Pesquisa da JetBrains, sobre o ecossistema Java em 2021](https://www.jetbrains.com/lp/devecosystem-2021/java/)  
+
+#### **Fazendo deploy da imagem da aula**
+
+Para que você não precise instalar o Docker, criar um Dockerfile e fazer o build de uma imagem Docker com sua aplicação na sua própria máquina, disponibilizamos a imagem gerada na aula no seguinte link: <https://hub.docker.com/repositories/jacquelineoliveira>
+
+O deploy no Fly.io pode ser feito com os seguintes passos:
+
+1. Instale o comando [flyctl](https://fly.io/docs/hands-on/install-flyctl/) na sua máquina
+2. Em um Terminal, execute o comando: flyctl launch --image jacquelineoliveira/linguagensapi:latest
+3. Configure o endereço do seu MongoDB com o comando: flyctl secrets set "SPRING_DATA_MONGODB_URI=mongodb+srv://seuusuario:suasenha@clusterAbc.xvcnx.mongodb.net/aluraDb?retryWrites=true&w=majority" (não deixe de definir o usuário e senha corretos)
 
 ***

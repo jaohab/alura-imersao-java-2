@@ -55,8 +55,7 @@ public class TopMovies extends Style {
             System.out.print(filme.get("imDbRating"));
             System.out.print(" - ");
 
-            double temp = Double.parseDouble(filme.get("imDbRating"));
-            int rating = (int) temp;
+            int rating = (int) Double.parseDouble(filme.get("imDbRating"));
 
             for (int i = 0; i < rating; i++) {
                 System.out.print(ESTRELA + RESETAR);
