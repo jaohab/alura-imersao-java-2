@@ -29,7 +29,10 @@ public class ImdbExtractor implements Extractor {
 
         for (Map<String, String> selecting : data) {
 
-            var content = new Content(selecting.get("title"), selecting.get("image"), selecting.get("imDbRating"));
+            var content = new Content(
+                selecting.get("title"), 
+                selecting.get("image"), 
+                selecting.get("imDbRating"));
             selectContent.add(content);
 
         }

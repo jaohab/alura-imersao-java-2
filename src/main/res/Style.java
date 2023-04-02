@@ -4,6 +4,7 @@ public class Style {
     /*
      * CASO NÂO SEJA EXIBIDO OS EMOJIS NO TERMINAL, INSIRA O SEGUINTE CÓDIGO NO TERMINAL:
      * chcp 65001
+     * Pode não funcionar.
      */
 
     // Emoji
@@ -13,7 +14,8 @@ public class Style {
     public static final String COMETA = "\u2604";
 
     // Separador
-    public static final String SEPARADOR = "––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––";
+    //public static final String SEPARADOR = "––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––";
+    public static final String SEPARADOR = "------------------------------------------------------------";
 
     // Estilo do texto
     public static final String NEGRITO = "\u001B[1m";

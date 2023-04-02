@@ -11,7 +11,7 @@ import main.functions.ClientHTTP;
 
 public class StickerGenerator {
 
-    public void generateStickers(String apiUrl) throws Exception {
+    public void generateStickers(String apiUrl) {
 
         // Acessar e guardar conteúdo da API
         var client = new ClientHTTP();
@@ -30,11 +30,15 @@ public class StickerGenerator {
             String name = content.get("title");
             
             // Caso não encontre o o linkda na imagem no paramentro "image", tentar com o parametro "url"
-            InputStream img;
+            InputStream img = null;
             try {
                 img = new URL(content.get("image")).openStream();
             } catch (Exception e) {
-                img = new URL(content.get("url")).openStream();
+                try {
+                    img = new URL(content.get("url")).openStream();
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
             }
 
             // Caso não encontre o "rating" será atribuido o valor de "0"

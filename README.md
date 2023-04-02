@@ -56,7 +56,7 @@ Caso a API do IMDb esteja instável ou fora do ar, você pode utilizar os seguin
 
 #### **Resultado do Desafio - 01**
 
-![Resultado Aula 1](resultado/resultado_1.png)  
+[Resultado Aula 1](resultado/resultado_1.png)  
 
 ***
 &nbsp;
@@ -90,7 +90,7 @@ Caso a API do IMDb esteja instável ou fora do ar, você pode utilizar os seguin
 
 #### **Resultado do Desafio - 02**
 
-![Resultado Aula 2](resultado/resultado_2.png)  
+[Resultado Aula 2](resultado/resultado_2.png)  
 
 ***
 &nbsp;
@@ -121,9 +121,9 @@ Livro: [Desbravando SOLID](https://www.casadocodigo.com.br/products/livro-desbra
 #### **Desafios desta aula - 03**
 
 1. ✅ **––** Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.  
-2. ⛔ **––** Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.  
-3. ⛔ **––** Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.  
-4. ⛔ **––** Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.  
+2. ✅ **––** Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.  
+3. ✅ **––** Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.  
+4. ✅ **––** Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.  
 
 #### **Instabilidade da API da NASA**
 
@@ -167,11 +167,12 @@ Artigo: [Spring: Conheça esse framework Java](https://www.alura.com.br/artigos/
 
 #### **Desafios desta aula - 04**
 
-1. ⛔ **––** Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.  
+1. ✅ **––** Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.  
 2. ⛔ **––** Devolver a listagem ordenada pelo ranking.  
-3. ⛔ **––** Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.  
+3. ✅ **––** Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.  
 
 #### **Resultado do Desafio - 04**
+[Link para o repositório da aplicação](https://github.com/jaohab/alura-imersao-java-2-lang-api)
 
 ***
 &nbsp;
