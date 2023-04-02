@@ -29,7 +29,7 @@ public class NasaExtractor implements Extractor {
 
         for (Map<String, String> selecting : data) {
 
-            var content = new Content(selecting.get("title"), selecting.get("url"));
+            var content = new Content(selecting.get("title"), selecting.get("url"), null);
             selectContent.add(content);
 
         }

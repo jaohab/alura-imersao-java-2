@@ -28,8 +28,22 @@ public class StickerGenerator {
         for (Map<String, String> content : data) {
 
             String name = content.get("title");
-            InputStream img = new URL(content.get("image")).openStream();
-            int rating = (int) Double.parseDouble(content.get("imDbRating"));
+            
+            // Caso não encontre o o linkda na imagem no paramentro "image", tentar com o parametro "url"
+            InputStream img;
+            try {
+                img = new URL(content.get("image")).openStream();
+            } catch (Exception e) {
+                img = new URL(content.get("url")).openStream();
+            }
+
+            // Caso não encontre o "rating" será atribuido o valor de "0"
+            int rating;
+            try {
+                rating = (int) Double.parseDouble(content.get("imDbRating"));
+            } catch (Exception e) {
+                rating = 0;
+            }
 
             var newImg = new ImgConstructor();
             newImg.gerar(name, img, rating);

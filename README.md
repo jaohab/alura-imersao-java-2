@@ -22,7 +22,7 @@ Repositorio dos conteúdos abordados durante o curso IMERSÃO JAVA 2 da Alura en
 
 ### ✅ **Aula 01 - Consumindo uma API de filmes com Java**
 
-Nesta primeira aula, vamos construir uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação sem usar nenhuma biblioteca externa.
+> Nesta primeira aula, vamos construir uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares, destacando seus pôsteres e visualizando sua classificação sem usar nenhuma biblioteca externa.
 
 #### **Links - 01**
 
@@ -56,7 +56,7 @@ Caso a API do IMDb esteja instável ou fora do ar, você pode utilizar os seguin
 
 #### **Resultado do Desafio - 01**
 
-[Resultado Aula 1](resultado/resultado_1.png)  
+![Resultado Aula 1](resultado/resultado_1.png)  
 
 ***
 &nbsp;
@@ -64,7 +64,7 @@ Caso a API do IMDb esteja instável ou fora do ar, você pode utilizar os seguin
 
 ### ✅ **Aula 02 - Gerando figurinhas para WhatsApp**
 
-Nesta segunda aula vamos criar um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp os nossos filmes preferidos.
+> Nesta segunda aula vamos criar um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp os nossos filmes preferidos.
 
 #### **Links - 02**
 
@@ -80,19 +80,17 @@ Nesta segunda aula vamos criar um gerador de figurinhas explorando outras biblio
 
 #### **Desafios desta aula - 02**
 
-1. ⛔ **––** Criar diretório de saída das imagens, se ainda não existir.
-2. ⛔ **––** Centralizar o texto na figurinha.
-3. ⛔ **––** Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
-4. ⛔ **––** Colocar contorno (outline) no texto da imagem.
-5. ⛔ **––** Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
+1. ✅ **––** Criar diretório de saída das imagens, se ainda não existir.
+2. ✅ **––** Centralizar o texto na figurinha.
+3. ✅ **––** Colocar outra fonte como a Comic Sans ou a Impact.
+4. ✅ **––** Colocar contorno (outline) no texto da imagem.
+5. ✅ **––** Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.  
+**Observação:** Substitui a foto por emojis.
 6. ✅ **–– DESAFIO PESSOAL ––** Adicionar função de redimencionar as imagens antes de gerar os stickers para padronizar o resultado.
 
 #### **Resultado do Desafio - 02**
 
-[Resultado Aula 2](resultado/resultado_2.png)  
-**Observação:** Como não existe um padrão de tamanho das imagens dos posters do filmes, da esse efeito de que as iamgens dos emojis e do texto estão mudando para cada imagem, mas estes estão padronizados.
-
-Eu comecei a fazer uma função de redimensionar as imagens pegas na API antes de adicionar o texto e os emojis, mas não tive tempo de concluir. 😅
+![Resultado Aula 2](resultado/resultado_2.png)  
 
 ***
 &nbsp;
@@ -100,7 +98,7 @@ Eu comecei a fazer uma função de redimensionar as imagens pegas na API antes d
 
 ### ✅ **Aula 03 - Ligando as pontas, refatoração e orientação a objetos**
 
-Chegou o momento de pegarmos os filmes do IMDb e gerar figurinhas com os pôsteres, aproveitando para melhorar nosso código com as refatorações necessárias para torná-lo mais flexível e fácil de entender.
+> Chegou o momento de pegarmos os filmes do IMDb e gerar figurinhas com os pôsteres, aproveitando para melhorar nosso código com as refatorações necessárias para torná-lo mais flexível e fácil de entender.
 
 **Observação:** Os conteúdos das aulas 01 e 02 foram movidas para a pasta *discontinued* para servir de referencia e não se misturar com os novos códigos da refatoração.
 
@@ -122,7 +120,7 @@ Livro: [Desbravando SOLID](https://www.casadocodigo.com.br/products/livro-desbra
 
 #### **Desafios desta aula - 03**
 
-1. ⛔ **––** Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.  
+1. ✅ **––** Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.  
 2. ⛔ **––** Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.  
 3. ⛔ **––** Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.  
 4. ⛔ **––** Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.  
@@ -145,7 +143,7 @@ Além disso, deixamos uma URLs com imagens fantásticas do James Webb Space Tele
 
 ### ✅ **Aula 04 - Criando nossa própria API com Spring**
 
-Agora vamos construir uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
+> Agora vamos construir uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
 
 #### **Links - 04**
 
@@ -181,7 +179,7 @@ Artigo: [Spring: Conheça esse framework Java](https://www.alura.com.br/artigos/
 
 ### ✅ **Aula 05 - Publicando nossa API no Cloud**
 
-Para fechar com chave de ouro, vamos tornar nossa aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem. Além disso, vamos gerar figurinhas a partir do conteúdo dessa nossa API.
+> Para fechar com chave de ouro, vamos tornar nossa aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem. Além disso, vamos gerar figurinhas a partir do conteúdo dessa nossa API.
 
 #### **Links - 05**
 
